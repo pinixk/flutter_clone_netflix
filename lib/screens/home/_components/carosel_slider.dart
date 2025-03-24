@@ -99,7 +99,7 @@ class _CaroselImagesState extends State<CaroselImages> {
 List<Widget> makeIndicator(List list, int currentPage) {
   List<Widget> results = [];
 
-  for (var i = 0; i < list.length; i++) {
+  for (var i = 0; i < list.length - 1; i++) {
     results.add(Container(
       width: 8,
       height: 8,
